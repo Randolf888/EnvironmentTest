@@ -1,9 +1,9 @@
 # EnvironmentTest - React Native Lab 1 
 # Student Info 
-Name: Randolf 
-Student ID: N01697788
-Course: CPAN 213 
-Date: September 17, 2025
+- Name: Randolf 
+ - Student ID: N01697788
+ - Course: CPAN 213 
+ - Date: September 17, 2025
 ## Description
 This is a React Native app created  as  part . The app demonstrates basic React Native components, layouts, and configuration for Android 
 
