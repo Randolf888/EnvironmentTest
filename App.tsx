@@ -19,7 +19,7 @@ return (
 <View style={styles.content}>
 <Text style={styles.greeting}>Hello, I'm [Randolf Nd'ungu]!</Text>
 <Text style={styles.info}>Student ID: [N01697788]</Text>
-<Text style={styles.info}>Program: [Your Program]</Text>
+<Text style={styles.info}>Program: [Computer programming and anylasis ]</Text>
 <View style={styles.goals}>
 <Text style={styles.sectionTitle}>My Course Goals:</Text>
 <Text style={styles.goal}>• Learn React Native fundamentals</Text>
