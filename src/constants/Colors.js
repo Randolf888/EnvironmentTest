@@ -10,6 +10,7 @@ export const Colors = {
     light: '#ecf0f1',
   },
   border: '#bdc3c7',
+  shadow: '#000',
 };
 
 export default Colors;
