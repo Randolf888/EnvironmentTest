@@ -37,5 +37,27 @@ Set the necessary permissions like the connection to the internet, camera, and m
 
 It's worth noting that the entire IOS application will fail to run without this file correctly configured.
 
+rc/components/ contains reusable UI components that can be shared across multiple screens to maintain consistency and reduce duplication.
 
+src/screens/ holds the screen components, each representing a distinct view or page in the application.
+
+src/services/ includes API calls, data fetching logic, and configuration services needed to interact with external resources.
+
+src/utils/ stores utility functions that provide commonly used helper methods throughout the app.
+
+src/constants/ defines application-wide constants such as static values, enumerations, and configuration keys.
+
+Development Scripts
+
+npm run dev:android launches the app in development mode specifically for Android devices or emulators.
+
+npm run lint checks the codebase for style violations and potential errors according to the linting rules.
+
+npm run format automatically formats the code to ensure consistent styling across the project.
+
+Environment Configuration
+
+.env.development contains environment variables and settings specific to development builds.
+
+.env.production contains environment variables and settings used for production builds to optimize performance and security.
 
