@@ -3,23 +3,25 @@
   "configurations": [
     {
       "name": "Debug Android",
-      "cwd": "${workspaceFolder}",
       "type": "reactnative",
       "request": "launch",
-      "platform": "android"
+      "platform": "android",
+      "cwd": "${workspaceFolder}",
+      "enableDebug": true
     },
     {
       "name": "Debug iOS",
-      "cwd": "${workspaceFolder}",
       "type": "reactnative",
       "request": "launch",
-      "platform": "ios"
+      "platform": "ios",
+      "cwd": "${workspaceFolder}",
+      "enableDebug": true
     },
     {
-      "name": "Attach to packager",
-      "cwd": "${workspaceFolder}",
+      "name": "Attach to Packager",
       "type": "reactnative",
-      "request": "attach"
+      "request": "attach",
+      "cwd": "${workspaceFolder}"
     }
   ]
 }
