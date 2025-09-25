@@ -36,3 +36,6 @@ App metadata is made up of the description, bundle ID, and display name, as well
 Set the necessary permissions like the connection to the internet, camera, and microphone.
 
 It's worth noting that the entire IOS application will fail to run without this file correctly configured.
+
+
+
