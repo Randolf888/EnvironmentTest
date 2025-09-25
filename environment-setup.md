@@ -29,3 +29,5 @@ Creating the project: ~15 minutes
 Running the app and troubleshooting errors: ~30 minutes
 
 Editing App.js and testing UI: ~30 minutes
+
+
