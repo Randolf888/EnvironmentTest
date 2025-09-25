@@ -1,6 +1,7 @@
 import React from 'react';
 import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import Header from '../../components/common/Header';
+import Colors from '../../constants/Colors';
 
 const HomeScreen = () => {
   return (
@@ -21,7 +22,7 @@ const HomeScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: Colors.background,
   },
   content: {
     flex: 1,
@@ -30,19 +31,19 @@ const styles = StyleSheet.create({
   welcomeText: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#2c3e50',
+    color: Colors.text.primary,
     marginBottom: 20,
     textAlign: 'center',
   },
   description: {
     fontSize: 16,
-    color: '#7f8c8d',
+    color: Colors.text.secondary,
     textAlign: 'center',
     lineHeight: 24,
   },
   nameText: {
     fontSize: 18,
-    color: '#34495e',
+    color: Colors.text.primary,
     textAlign: 'center',
     marginTop: 10,
   },

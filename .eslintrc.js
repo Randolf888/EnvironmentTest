@@ -3,7 +3,6 @@ module.exports = {
   extends: [
     '@react-native-community',
     'eslint:recommended',
-    '@react-native',
     'plugin:prettier/recommended',
   ],
   plugins: ['react', 'react-native', 'react-hooks'],

@@ -21,8 +21,7 @@
     "clean:ios": "cd ios && rm -rf build && xcodebuild clean",
     "setup": "npm install && cd ios && pod install && cd ..",
     "dev:android": "npm run start:reset & npm run android",
-    "dev:ios": "npm run start:reset & npm run ios",
-    "postinstall": "cd ios && pod install"
+    "dev:ios": "npm run start:reset & npm run ios"
   },
   "dependencies": {
     "@react-native/new-app-screen": "0.81.1",
