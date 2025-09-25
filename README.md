@@ -36,4 +36,4 @@ It displays course information, my student name , ID ,and learning goals, while 
 3.  react-native-community/cli": "20.0.0"(@react-native-community/cli)
 4.  VS code version: 1.104.0
 
-# Updates to EnvironmentTest - React Native Lab 2
+
