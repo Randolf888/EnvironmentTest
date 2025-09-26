@@ -9,7 +9,5 @@
     "javascript": "javascriptreact"
   },
   "typescript.preferences.importModuleSpecifier": "relative",
-  "javascript.preferences.importModuleSpecifier": "relative",
-  "java.configuration.updateBuildConfiguration": "interactive",
-  "cSpell.words": ["buildscript", "rootproject"]
+  "javascript.preferences.importModuleSpecifier": "relative"
 }

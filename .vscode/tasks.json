@@ -3,9 +3,8 @@
   "tasks": [
     {
       "label": "Start Metro",
-      "type": "process",
-      "command": "npm",
-      "args": ["start"],
+      "type": "shell",
+      "command": "npx react-native start",
       "group": "build",
       "presentation": {
         "echo": true,
@@ -17,9 +16,8 @@
     },
     {
       "label": "Build Android",
-      "type": "process",
-      "command": "npm",
-      "args": ["run", "android"],
+      "type": "shell",
+      "command": "npx react-native run-android",
       "group": "build",
       "dependsOn": "Start Metro"
     }
