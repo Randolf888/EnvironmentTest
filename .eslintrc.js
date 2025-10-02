@@ -1,8 +1,9 @@
 module.exports = {
   root: true,
   extends: [
-    '@react-native-community',
+    '@react-native',
     'eslint:recommended',
+    'plugin:react/recommended',
     'plugin:prettier/recommended',
   ],
   plugins: ['react', 'react-native', 'react-hooks'],

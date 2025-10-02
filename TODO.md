@@ -1,0 +1,2 @@
+- [x] Update import path in src/screens/Home/HomeScreen.js from '../services/config' to '../../services/config'
+- [x] Update import path in src/screens/Home/HomeScreen.js from '../components' to '../../components'

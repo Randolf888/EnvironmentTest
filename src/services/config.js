@@ -1,10 +1,9 @@
-import Config from 'react-native-config';
+import AppConfig from '../config/constants';
 
-export const AppConfig = {
-  apiBaseUrl: Config.API_BASE_URL,
-  appName: Config.APP_NAME,
-  debugMode: Config.DEBUG_MODE === 'true',
-  version: Config.VERSION,
+export const ConfigService = {
+  get: key => AppConfig[key],
+  getAll: () => AppConfig,
+  isDebug: () => AppConfig.debugMode,
 };
 
 export default AppConfig;
